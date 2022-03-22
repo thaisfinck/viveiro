@@ -1,13 +1,26 @@
 import React from 'react'
+import Navbar from './components/navbar';
+import Oviveiro from './components/oviveiro';
+import Quemsomos from './components/quemsomos';
+import Oqueproduzimos from './components/oqueproduzimos';
+import Contato from './components/contato';
+import Footer from './components/footer';
 
 function App() {
   return (
     <>
     <div className="Viveiro">
-      <body>
-        <h1>Viveiro Agriflorestal</h1>
-        <p>content</p>
-      </body>
+      <Navbar />
+      <hr />
+      <Oviveiro />
+      <hr />
+      <Quemsomos />
+      <hr />
+      <Oqueproduzimos />
+      <hr />
+      <Contato />
+      <hr />
+      <Footer />
     </div>
       </>
   );
