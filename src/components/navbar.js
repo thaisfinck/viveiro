@@ -10,28 +10,28 @@ export default function Navbar() {
           <img src="viveiro.png" class="img-fluid mt-3" width="200px" alt="logo viveiro agriflorestal"></img>
           </div>
           <div class="col content pt-4">
-            <a href='./oviveiro'>
+            <a href='#oviveiro'>
               <button>
               O viveiro
               </button>
             </a>
           </div>
           <div class="col content pt-4">
-            <a href='./quemsomos'>
+            <a href='#quemsomos'>
               <button>
             Quem Somos
               </button>
             </a>
           </div>
           <div class="col-2 content pt-4">
-            <a href='./oqueproduzimos'>
+            <a href='#oqueproduzimos'>
               <button>
             O Que Produzimos
               </button>
             </a>
           </div>
           <div class="col content pt-4">
-            <a href='./contato'>
+            <a href='#contato'>
               <button>
             Contato
               </button>
