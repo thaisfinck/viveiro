@@ -3,7 +3,8 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
+    <div class="sticky-top bg-white">
+      <nav>
       <div class="container">
         <div class="row">
           <div class="col-5 content">
@@ -39,6 +40,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      </nav>
     </div>
   )
 }

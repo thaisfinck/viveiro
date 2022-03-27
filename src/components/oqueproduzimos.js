@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Oqueproduzimos() {
   return (
-    <div>
+    <section class="container">
       <h1 id='oqueproduzimos' className='title'>O que produzimos</h1>
         <p className='content'>Alface</p>
         <p className='content'>Cebola</p>
@@ -15,6 +15,6 @@ export default function Oqueproduzimos() {
         <p className='content'>Pimentão</p>
         <p className='content'>Tomate</p>
         <p className='content'>Uva</p>
-    </div>
+    </section>
   )
 }
