@@ -10,3 +10,12 @@
   margin: 10px;
   font-family: 'Roboto', sans-serif;
 }
+
+button:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 340px;
+  height: 66px;
+}
