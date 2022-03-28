@@ -11,7 +11,6 @@ function App() {
     <>
     <div className="Viveiro">
       <Navbar />
-      <hr />
       <Oviveiro />
       <hr />
       <Quemsomos />
