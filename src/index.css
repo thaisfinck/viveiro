@@ -1,5 +1,5 @@
 .title {
-  color: green;
+  color: #788544;
   margin: 5px;
   font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,9 +13,24 @@
 
 button:hover {
   transform: scale(1.1);
+  color: #788544;
 }
 
-img {
-  width: 340px;
-  height: 66px;
+#logo {
+  width: 250px;
+  height: 150px;
+}
+
+#viveiro-img {
+  width: 50%;
+  height: auto;
+}
+
+#quemsomos-img{
+  width: 50%;
+  height: auto;
+}
+
+#root {
+  background-color: #eee;
 }
