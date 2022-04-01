@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contato() {
   return (
     <section className="container">
-       <h1 id='contato' className='title'><strong>Contato</strong></h1>
+       <h1 id='contato' className='title text-center mb-3'><strong>CONTATO</strong></h1>
         <div className="container">
           <div className="row">
             <div className="col content">
@@ -11,7 +11,7 @@ export default function Contato() {
               <p>Rua do viveiro, nº 0
                 <br/>
               Bairro: Centro
-                <br/>
+                <br/>x
               CEP: 99999-999
                 <br/>
               Cidade: Urubici - SC</p>

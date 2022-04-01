@@ -3,9 +3,13 @@ import React from 'react'
 export default function Oqueproduzimos() {
   return (
     <section id='oqueproduzimos' className="container">
-      <h1 className='title'><strong>O que produzimos</strong></h1>
-      <p className="content">Produzimos todos os tipos de plantinhas e elas sao bem boas!</p>
-        <div className="container mt-3 mb-3">
+      <h1 className='title text-center mb-3'><strong>O QUE PRODUZIMOS</strong></h1>
+      <p className='text-justify content'>O Viveiro Agriflorestal fica localizado na cidade de Urubici e
+          vem fornecendo mudas de diversos tipos para a toda a comunidade urubiciense desde 1990. 
+          Nosso objetivo é fornecer um servico de qualidade para nossos clientes e 
+          nosso maior retorno e ver o agricultor ter bons resultados.
+        </p>
+         <div className="container mt-4 mb-4">
           <div className="row">
             <div className="col">
             <div className="card" style={{width: 250, height: 330}}>
