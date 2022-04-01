@@ -6,6 +6,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#titlemain {
+  color: #eee;
+  margin: 5px;
+  font-size: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 100px;
+}
+
+#subtitle {
+  color: #eee;
+  font-size: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 95px;
+}
+
 .content {
   margin: 10px;
   font-family: 'Playfair Display', serif;
@@ -35,7 +54,7 @@ a {
 }
 
 .navlink:hover {
-  background-color: #eee;
+  background-color: #d1dbaa;
 }
 
 nav {
@@ -43,4 +62,25 @@ nav {
   margin: 0 auto;
   max-height: 75px;
 }
+
+#headline {
+  width: 100%;
+  height: 500px;
+  background-image: url("../public/viveiro.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#blocks {
+  max-width: 70%;
+  position: relative;
+  top: -170px;
+}
+
+#oviveiro-text{
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 
