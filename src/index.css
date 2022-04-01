@@ -1,24 +1,14 @@
+
 .title {
   color: #788544;
   margin: 5px;
-  font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .content {
   margin: 10px;
-  font-family: 'Roboto', sans-serif;
-}
-
-button:hover {
-  transform: scale(1.1);
-  color: #788544;
-}
-
-#logo {
-  width: 250px;
-  height: 150px;
+  font-family: 'Playfair Display', serif;
 }
 
 #viveiro-img {
@@ -33,4 +23,24 @@ button:hover {
 
 #root {
   background-color: #eee;
+  font-family: 'Hind', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.navlink:hover {
+  background-color: #eee;
+}
+
+nav {
+  max-width: 70%;
+  margin: 0 auto;
+  max-height: 75px;
+}
+
