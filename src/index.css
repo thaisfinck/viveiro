@@ -27,7 +27,7 @@
 
 .content {
   margin: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 #viveiro-img {
@@ -75,12 +75,19 @@ nav {
 #blocks {
   max-width: 70%;
   position: relative;
-  top: -170px;
+  top: -173px;
 }
 
 #oviveiro-text{
-  max-width: 60%;
-  margin: 0 auto;
+  max-width: 70%;
+  margin: auto;
 }
 
+.card-icon{
+  height: 200px;
+  background-color: #788544;
+}
 
+i {
+  color: #d1dbaa;
+}
