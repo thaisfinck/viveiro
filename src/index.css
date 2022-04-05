@@ -1,7 +1,6 @@
 
 .title {
   color: #788544;
-  margin: 5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,14 +29,14 @@
   font-family: 'Playfair Display', sans-serif;
 }
 
-#viveiro-img {
-  width: 50%;
-  height: auto;
+#oviveiro-text{
+  max-width: 70%;
+  margin: auto;
 }
 
-#quemsomos-img{
-  width: 50%;
-  height: auto;
+#quemsomos{
+  max-width: 70%;
+  margin: auto;
 }
 
 #root {
@@ -65,22 +64,11 @@ nav {
 
 #headline {
   width: 100%;
-  height: 500px;
+  height: 570px;
   background-image: url("../public/viveiro.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-#blocks {
-  max-width: 70%;
-  position: relative;
-  top: -173px;
-}
-
-#oviveiro-text{
-  max-width: 70%;
-  margin: auto;
 }
 
 .card-icon{
