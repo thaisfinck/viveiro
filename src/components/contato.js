@@ -15,7 +15,7 @@ export default function Contato() {
               CEP: 99999-999
                 <br/>
               Cidade: Urubici - SC</p>
-              <img src='map.png' alt=''></img>
+              <img className="img-fluid" src='map.png' alt=''></img>
             </div>
             <div className="col content">
               <p><strong>Entre em contato via:</strong></p>
