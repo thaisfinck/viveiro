@@ -15,10 +15,10 @@ export default function Navbar() {
             <a className="p-4 text-dark navlink" href="#oviveiro">O VIVEIRO</a>
           </li>
           <li className="nav-item">
-            <a className="p-4 text-dark navlink" href="#quemsomos">QUEM SOMOS</a>
+            <a className="p-4 text-dark navlink" href="#oqueproduzimos">O QUE PRODUZIMOS</a>
           </li>
           <li className="nav-item">
-            <a className="p-4 text-dark navlink" href="#oqueproduzimos">O QUE PRODUZIMOS</a>
+            <a className="p-4 text-dark navlink" href="#quemsomos">QUEM SOMOS</a>
           </li>
           <li className="nav-item">
             <a className="p-4 text-dark navlink" href="#contato">CONTATO</a>

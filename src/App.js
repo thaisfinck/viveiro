@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Oviveiro />
       <hr />
-      <Quemsomos />
-      <hr />
       <Oqueproduzimos />
+      <hr />
+      <Quemsomos />
       <hr />
       <Contato />
       <hr />
