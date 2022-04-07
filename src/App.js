@@ -12,7 +12,6 @@ function App() {
     <div className="Viveiro">
       <Navbar />
       <Oviveiro />
-      <hr />
       <Oqueproduzimos />
       <hr />
       <Quemsomos />
