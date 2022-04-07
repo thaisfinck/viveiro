@@ -121,7 +121,7 @@ nav {
 
 #carouselMultiItemExample {
   position: relative;
-  bottom: 217px;
+  bottom: 194px;
   height: 150px;
 }
 
@@ -130,13 +130,17 @@ nav {
 }
 
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1199.98px) { 
+/* X-Large devices (large desktops, 1200px and down) */
+@media (max-width: 1400px) { 
 #titlemain {
   font-size: 50px;
 }
 #video {
   width: 70%;
+}
+#carouselMultiItemExample {
+  position: relative;
+  bottom: 217px;
 }
 } 
 
