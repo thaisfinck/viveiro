@@ -19,7 +19,7 @@ export default function Oqueproduzimos() {
                 <h5 className="card-title title"><strong>ALFACE</strong></h5>
                   <h6 className="card-subtitle mb-2 text-muted content">Tipos</h6>
                   <hr />
-                    <ul className="card-text content">
+                    <ul className="card-text">
                       <li>Alface Verde</li>
                       <li>Alface Roxa</li>
                       <li>Alface Vermelha</li>
@@ -66,7 +66,7 @@ export default function Oqueproduzimos() {
                 <h5 className="card-title title"><strong>ALFACE</strong></h5>
                   <h6 className="card-subtitle mb-2 text-muted content">Tipos</h6>
                   <hr />
-                    <ul className="card-text content">
+                    <ul className="card-text">
                       <li>Alface Verde</li>
                       <li>Alface Roxa</li>
                       <li>Alface Vermelha</li>
