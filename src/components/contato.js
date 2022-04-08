@@ -21,19 +21,20 @@ export default function Contato() {
               <p><strong>Entre em contato via:</strong></p>
               <p>Telefone: (48) 9999-9999</p>
               <p>E-mail:</p>
-              <form>
+              <form action='mailto: thaisfinck@gmail.com' method='post' enctype='multipart/form-data' name="EmailForm">
               <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="Nome"></input>
+                <input type="text" className="form-control" placeholder="Nome" name="contactName"></input>
               </div>
               <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="E-mail"></input>
+                <input type="text" className="form-control" placeholder="E-mail" name="contactEmail"></input>
               </div>
               <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="Assunto"></input>
+                <input type="text" className="form-control" placeholder="Assunto" name="subject"></input>
               </div>
               <div className="input-group mb-3">
-              <textarea className="form-control" aria-label="With textarea" placeholder='Mensagem'></textarea>
+              <textarea className="form-control" aria-label="With textarea" placeholder="Mensagem" name="message"></textarea>
               </div>
+              <button type="submit" className="btn">Enviar</button>
              </form>
             </div>
           </div>
