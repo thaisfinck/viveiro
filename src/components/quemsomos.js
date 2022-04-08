@@ -4,7 +4,7 @@ export default function Quemsomos() {
   return (
     <section className="container" id='quemsomos'>
       <div id="quemsomos-text">
-       <h1 className='title text-center mb-3'><strong>QUEM SOMOS</strong></h1>
+       <h1 className='title text-center mb-4 mt-4'><strong>QUEM SOMOS</strong></h1>
         <p className='content content text-center'>O Viveiro Agriflorestal fica localizado na cidade de Urubici e
           vem fornecendo mudas de diversos tipos para a toda a comunidade urubiciense desde 1990. 
           Nosso objetivo é fornecer um servico de qualidade para nossos clientes e 
@@ -20,23 +20,23 @@ export default function Quemsomos() {
           <div className="carousel-inner">
             <div className="carousel-item active">
             <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+                src="viveiro-img1.jpeg"
                 className="d-block w-100"
-                alt="Sunset Over the City"
+                alt="homem e mulher em frente ao um viveiro de mudas"
               />
             </div>
             <div className="carousel-item">
             <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
+                src="viveiro-img2.jpeg"
                 className="d-block w-100"
-                alt="Canyon at Nigh"
+                alt="foto viveiro de mudas parte externa"
               />
             </div>
             <div className="carousel-item">
             <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+                src="viveiro-img3.jpeg"
                 className="d-block w-100"
-                alt="Cliff Above a Stormy Sea"
+                alt="foto viveiro de mudas parte externa"
               />
             </div>
           </div>

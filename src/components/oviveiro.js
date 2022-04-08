@@ -10,7 +10,7 @@ export default function Oviveiro() {
 
       <div
         id="carouselMultiItemExample"
-        className="carousel slide carousel-dark text-center"
+        className="carousel slide carousel-dark text-center mb-3"
         data-mdb-ride="carousel"
       >
         <div className="d-flex justify-content-center mb-4">

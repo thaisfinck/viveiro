@@ -65,7 +65,7 @@ nav {
 #headline {
   width: 100%;
   height: 550px;
-  background-image: url("../public/viveiro.jpeg");
+  background-image: url("../public/viveiro-img3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -119,6 +119,11 @@ nav {
   margin: auto;
 }
 
+#carouselExampleIndicators{
+  max-width: 80%;
+  margin: auto;
+}
+
 #carouselMultiItemExample {
   position: relative;
   bottom: 194px;
@@ -126,7 +131,7 @@ nav {
 }
 
 #main-content {
-  background-color: #d1dbaa;
+  background-color: #d7ddbe;
 }
 
 
