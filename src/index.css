@@ -143,7 +143,9 @@ nav {
   transform: scale(1.1);
   color: #eee;
 }
-
+#map {
+  max-height: 300px;
+}
 
 /* X-Large devices (large desktops, 1200px and down) */
 @media (max-width: 1400px) { 

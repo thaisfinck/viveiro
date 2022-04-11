@@ -124,7 +124,7 @@ export default function Oviveiro() {
         </div>
       </div>
       <div id="main-content" className='pb-3 pt-5'>
-      <p className="content text-center"><i class="fas fa-ellipsis-h" id="separator-one"></i></p>
+      <p className="content text-center"><i className="fas fa-ellipsis-h" id="separator-one"></i></p>
       <div id="oviveiro-text">
       <h1 className='title text-center mb-3' id='oviveiro'><strong>O VIVEIRO</strong></h1>
           <div className="content text-center mb-4">
@@ -137,7 +137,7 @@ export default function Oviveiro() {
         <div id="video" className="container ratio ratio-16x9 mb-5">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/3wG4ngW7k7w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-        <p className="content text-center"><i class="fas fa-ellipsis-h" id="separator-two"></i></p>
+        <p className="content text-center"><i className="fas fa-ellipsis-h" id="separator-two"></i></p>
       </div>
     </section>
   )

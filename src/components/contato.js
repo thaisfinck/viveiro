@@ -1,4 +1,6 @@
 import React from 'react'
+import ContactUs from './contactUs';
+
 
 export default function Contato() {
   return (
@@ -15,27 +17,13 @@ export default function Contato() {
               CEP: 99999-999
                 <br/>
               Cidade: Urubici - SC</p>
-              <img className="img-fluid" src='map.png' alt=''></img>
+              <a href='https://www.google.com/maps/@-28.0056312,-49.5914905,17z' title='Click para ver no map'><img className="img-thumbnail" src='map.png' alt='' id='map'></img></a>
             </div>
             <div className="col content">
               <p><strong>Entre em contato via:</strong></p>
               <p>Telefone: (48) 9999-9999</p>
               <p>E-mail:</p>
-              <form action='mailto: thaisfinck@gmail.com' method='post' enctype='multipart/form-data' name="EmailForm">
-              <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="Nome" name="contactName"></input>
-              </div>
-              <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="E-mail" name="contactEmail"></input>
-              </div>
-              <div className="input-group mb-3">
-                <input type="text" className="form-control" placeholder="Assunto" name="subject"></input>
-              </div>
-              <div className="input-group mb-3">
-              <textarea className="form-control" aria-label="With textarea" placeholder="Mensagem" name="message"></textarea>
-              </div>
-              <button type="submit" className="btn">Enviar</button>
-             </form>
+              < ContactUs />
             </div>
           </div>
         </div>
