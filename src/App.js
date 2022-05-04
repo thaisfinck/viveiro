@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar';
 import Oviveiro from './components/oviveiro';
 import Quemsomos from './components/quemsomos';
-import Oqueproduzimos from './components/oqueproduzimos';
+// import Oqueproduzimos from './components/oqueproduzimos';
 import Contato from './components/contato';
 import Footer from './components/footer';
 
@@ -12,8 +12,8 @@ function App() {
     <div className="Viveiro">
       <Navbar />
       <Oviveiro />
-      <Oqueproduzimos />
-      <hr />
+      {/* <Oqueproduzimos /> */}
+      {/* <hr /> */}
       <Quemsomos />
       <hr />
       <Contato />
