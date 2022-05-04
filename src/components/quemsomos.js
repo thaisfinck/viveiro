@@ -4,9 +4,9 @@ export default function Quemsomos() {
   return (
     <section className="container" id='quemsomos'>
       <div id="quemsomos-text">
-       <h1 className='title text-center mb-4 mt-4'><strong>QUEM SOMOS</strong></h1>
-        <p className='content content text-center'>O Viveiro Agriflorestal fica localizado na cidade de Urubici e
-          vem fornecendo mudas de diversos tipos para a toda a comunidade urubiciense desde 1990. 
+       <h1 className='title text-center mb-4 mt-5'><strong>QUEM SOMOS</strong></h1>
+        <p className='content content text-center'> O Viveiro Agriflorestal conta com uma equipe de quatro profissionais
+          altamente capacitaods e com vasta experiência na produção de mudas.
           Nosso objetivo é fornecer um servico de qualidade para nossos clientes e 
           nosso maior retorno e ver o agricultor ter bons resultados.
         </p>
