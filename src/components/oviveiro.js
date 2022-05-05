@@ -60,7 +60,7 @@ export default function Oviveiro() {
                     <div className="card-body">
                         <h5 className="card-title">Variedade</h5>
                         <p className="card-text">
-                          Com uma equipe de trabalho experiente, produzimos desde mudas de hortaliças, até eucalipto e flores.
+                          Com uma equipe de trabalho experiente, produzimos mudas de hortaliças, eucalipto e flores.
                         </p>
                       </div>
                       <div className='card-icon text-center p-3'><i className="fas fa-seedling main-icon"></i></div>
